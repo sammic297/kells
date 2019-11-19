@@ -36,5 +36,6 @@ if (isset($_POST['book'])) {
 		$query = "INSERT INTO bookings (departure, arrival, tdate, seats, email, phone, message)
 				  VALUES ('$departure', '$arrival', '$tdate', '$seats', '$email', '$phone', '$message')";
 		mysqli_query($book, $query);
+		header('location: login.php');
 	}
 }

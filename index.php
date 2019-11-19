@@ -1,6 +1,6 @@
 <!--Final Year Project-->
 <!--Udofia Michael-->
-<?php include 'control.php'; ?>
+<?php include('control.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -33,7 +33,7 @@
 				<i class="fa fa-close" aria-hidden="true"></i>
 			</button>
 
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" action="index.php" method="post" accept-charset="UTF-8">
 				<span class="contact100-form-title">
 					Book a Ticket
 				</span>
@@ -109,7 +109,7 @@
 				</div>
 
 				<div class="container-contact100-form-btn">
-					<input class="contact100-form-btn" type="button" name="book" value="Submit">
+					<input class="contact100-form-btn" type="submit" name="book" value="Submit">
 				</div>
 			</form>
 
