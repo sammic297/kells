@@ -130,7 +130,7 @@
 	<script src="vendor/daterangepicker/moment.min.js"></script>
 	<script src="vendor/daterangepicker/daterangepicker.js"></script>
 	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhK6Vg6Gal5D3OSiIhHHVva8ls_3wYHx8">//AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlmyoBgBJ72gp_jVt8_PKXvCJc_9IGlE0">//AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes</script>
 	<script src="js/map-custom.js"></script>
 	<script src="js/main.js"></script>
 
