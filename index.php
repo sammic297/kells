@@ -1,5 +1,7 @@
 <!--Final Year Project-->
-<!--Michael Udofia-->
+<!--Udofia Michael-->
+<?php include 'control.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,7 +38,7 @@
 					Book a Ticket
 				</span>
 
-				<div class="bd rs1-wrap-input100 validate-input" data-validate="Name is required">
+				<div class="bd rs1-wrap-input100 validate-input">
 					<span class="label-input100">Departure Point</span>
 					<select class="input100 rounded" name="departure">
 						<option value="uyo" selected>Uyo</option>
@@ -47,9 +49,9 @@
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="bd rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+				<div class="bd rs1-wrap-input100 validate-input">
 					<span class="label-input100">Arrival Point</span>
-					<select class="input100 rounded" name="departure">
+					<select class="input100 rounded" name="arrival">
 						<option value="abuja" selected>Abuja</option>
 						<option value="lagos">Lagos</option>
 						<option value="calabar">Calabar</option>
@@ -57,15 +59,15 @@
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
+				<div class="wrap-input100 rs1-wrap-input100 validate-input">
 					<span class="label-input100">Travel Date</span>
-					<input class="input100" type="date" name="date">
+					<input class="input100" type="date" name="tdate">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="bd rs1-wrap-input100">
 					<span class="label-input100"># of Seats</span>
-					<select class="input100 rounded" name="departure">
+					<select class="input100 rounded" name="seats">
 						<option value="1" selected>1</option>
 						<option value="2">2</option>
 						<option value="3">3</option>
@@ -94,7 +96,7 @@
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid phone number is required">
 					<span class="label-input100">Phone</span>
 					<input class="input100" type="text" name="phone" placeholder="Enter your phone number">
 					<span class="focus-input100"></span>
@@ -107,12 +109,7 @@
 				</div>
 
 				<div class="container-contact100-form-btn">
-					<button class="contact100-form-btn">
-						<span>
-							Submit
-							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-						</span>
-					</button>
+					<input class="contact100-form-btn" type="button" name="book" value="Submit">
 				</div>
 			</form>
 
@@ -133,7 +130,7 @@
 	<script src="vendor/daterangepicker/moment.min.js"></script>
 	<script src="vendor/daterangepicker/daterangepicker.js"></script>
 	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhK6Vg6Gal5D3OSiIhHHVva8ls_3wYHx8">//AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes</script>
 	<script src="js/map-custom.js"></script>
 	<script src="js/main.js"></script>
 
